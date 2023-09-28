@@ -6,6 +6,13 @@ Este é um repositório privado onde mantenho meus estudos pessoais em JavaScrip
 
 - **Tópicos de Estudo**: Aqui, organizo meus estudos em JavaScript por tópicos específicos. Cada tópico tem seu diretório e uma breve descrição do que estou explorando.
 
+**Basicamente são os seguitnes:**
+* Fundamentos
+* Estruturas de Controle
+* Função
+* Objeto
+* Array
+
 ## Contribuição
 
 Este repositório é de uso pessoal e não está aberto para contribuições externas. No entanto, eu mesmo faço atualizações regularmente à medida que aprendo mais sobre JavaScript.
