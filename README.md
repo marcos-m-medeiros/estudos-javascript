@@ -8,7 +8,7 @@ Este é um repositório privado onde mantenho meus estudos pessoais em JavaScrip
 
 **Basicamente são os seguitnes:**
 * Fundamentos
-* [Estruturas de Controle]([URL](https://github.com/marcos-m-medeiros/estudos-javascript/tree/main/controle))
+* [Estruturas de Controle](https://github.com/marcos-m-medeiros/estudos-javascript/tree/main/controle)
 * Função
 * Objeto
 * Array
