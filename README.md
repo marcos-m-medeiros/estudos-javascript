@@ -12,7 +12,7 @@ Este é um repositório privado onde mantenho meus estudos pessoais em JavaScrip
 * [Função](https://github.com/marcos-m-medeiros/estudos-javascript/tree/main/funcao)
 * Objeto
 * Array
-* [Exercícios](https://github.com/marcos-m-medeiros/estudos-javascript/tree/main/funcao)
+* [Exercícios](https://github.com/marcos-m-medeiros/estudos-javascript/tree/main/exercicios)
 
 ## Contribuição
 
