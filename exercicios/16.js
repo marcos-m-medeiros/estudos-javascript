@@ -1,28 +1,24 @@
-/*
-Utilizando a estrutura do Switch faça um programa que simule uma calculadora básica O programa recebe
-como parâmetros dois valores numéricos e uma string referente à operação e a realize com os valores
-numéricos na ordem que foram inseridos. Por exemplo: calculadora (2, ‘+’, 3). A função efetuará a soma de 2 e
-3. Dica: Os sinais das operações são: ‘+’. ‘-’, ‘*’ e ‘/’. Crie um caso default para operações inválidas.
-*/
-
+// Defina uma função chamada calc que recebe dois números (n1 e n2) e um operando como argumentos.
 let calc = (n1, n2, operando) => {
+    // Use uma instrução switch para verificar o valor do operando.
     switch (operando) {
         case '+':
-            console.log(n1 + n2)
-            break
+            console.log(n1 + n2); // Se o operando for '+', imprima a soma de n1 e n2.
+            break;
         case '-':
-            console.log(n1 - n2)
-            break
+            console.log(n1 - n2); // Se o operando for '-', imprima a subtração de n1 e n2.
+            break;
         case '*':
-            console.log(n1 * n2)
-            break
+            console.log(n1 * n2); // Se o operando for '*', imprima a multiplicação de n1 e n2.
+            break;
         case '/':
-            console.log(n1 / n2)
-            break
+            console.log(n1 / n2); // Se o operando for '/', imprima a divisão de n1 por n2.
+            break;
         default:
-            console.log('Operando inválido.')
-            break
+            console.log('Operando inválido.'); // Se o operando não corresponder a nenhum dos casos anteriores, imprima uma mensagem de operando inválido.
+            break;
     }
 }
 
-calc(15, 10, '*')
+// Chame a função calc com números de exemplo (15 e 10) e um operando de exemplo ('*') para realizar uma multiplicação e imprimir o resultado.
+calc(15, 10, '*');
