@@ -1,29 +1,20 @@
-/*
-Um homem decidiu ir à uma revenda comprar um carro. Ele deseja comprar um carro hatch, e a revenda
-possui, além de carros hatch, sedans, motocicletas e caminhonetes. Utilizando uma estrutura switch, caso o
-comprador queira o hatch, retorne: “Compra efetuada com sucesso”. Nas outras opções, retorne: “Tem certeza
-que não prefere este modelo?”. Caso seja especificado um modelo que não está disponível, retorne no console:
-“Não trabalhamos com este tipo de automóvel aqui”.
-*/
-
+// Defina uma função chamada carro que recebe um modelo de carro como argumento.
 let carro = (carro) => {
+    // Use o método toLowerCase() para tornar o texto em letras minúsculas e tornar a comparação de casos insensível.
     switch (carro.toLowerCase()) {
         case 'hatch':
-            console.log('Compra efetuada com sucesso.')
-            break
+            console.log('Compra efetuada com sucesso.'); // Se o modelo for 'hatch', imprima uma mensagem de sucesso.
+            break;
         case 'sedan':
-            console.log('Tem certeza que não prefere este modelo?')
-            break
         case 'motocicleta':
-            console.log('Tem certeza que não prefere este modelo?')
-            break
         case 'caminhonete':
-            console.log('Tem certeza que não prefere este modelo?')
-            break
+            console.log('Tem certeza que não prefere este modelo?'); // Se o modelo for 'sedan', 'motocicleta' ou 'caminhonete', imprima uma mensagem sugerindo outro modelo.
+            break;
         default:
-            console.log('Não trabalhamos com este tipo de automóvel aqui.')
-            break
+            console.log('Não trabalhamos com este tipo de automóvel aqui.'); // Se o modelo não corresponder a nenhum dos casos anteriores, imprima uma mensagem de que o modelo não é suportado.
+            break;
     }
 }
 
-carro('hatch')
+// Chame a função carro com um modelo de carro de exemplo ('hatch') para ver a resposta.
+carro('hatch');
