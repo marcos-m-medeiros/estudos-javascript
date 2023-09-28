@@ -2,11 +2,11 @@
 
 Este é um repositório privado onde mantenho meus estudos pessoais em JavaScript. Aqui, armazeno meus códigos, projetos e recursos relacionados ao JavaScript para minha referência pessoal e para acompanhar meu progresso de aprendizado.
 
-## Conteúdo
+## Conteúdos
 
 - **Tópicos de Estudo**: Aqui, organizo meus estudos em JavaScript por tópicos específicos. Cada tópico tem seu diretório e uma breve descrição do que estou explorando.
 
-**Basicamente são os seguitnes:**
+**Basicamente os conteúdos são os seguitnes:**
 * [Fundamentos](https://github.com/marcos-m-medeiros/estudos-javascript/tree/main/fundamentos)
 * [Estruturas de Controle](https://github.com/marcos-m-medeiros/estudos-javascript/tree/main/controle)
 * Função
