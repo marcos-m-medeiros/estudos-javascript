@@ -7,7 +7,7 @@ Este é um repositório privado onde mantenho meus estudos pessoais em JavaScrip
 - **Tópicos de Estudo**: Aqui, organizo meus estudos em JavaScript por tópicos específicos. Cada tópico tem seu diretório e uma breve descrição do que estou explorando.
 
 **Basicamente são os seguitnes:**
-* Fundamentos
+* [Fundamentos](https://github.com/marcos-m-medeiros/estudos-javascript/tree/main/fundamentos)
 * [Estruturas de Controle](https://github.com/marcos-m-medeiros/estudos-javascript/tree/main/controle)
 * Função
 * Objeto
