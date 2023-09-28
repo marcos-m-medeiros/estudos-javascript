@@ -12,6 +12,7 @@ Este é um repositório privado onde mantenho meus estudos pessoais em JavaScrip
 * Função
 * Objeto
 * Array
+* Exercícios
 
 ## Contribuição
 
