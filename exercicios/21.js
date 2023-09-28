@@ -1,28 +1,30 @@
-/*
-Criar um programa para identificar o valor a ser pago por um plano de saúde dada a idade do conveniado
-considerando que todos pagam R$ 100 mais um adicional conforme a seguinte tabela: 1) crianças com menos
-de 10 anos pagam R$80; 2) conveniados com idade entre 10 e 30 anos pagam R$50; 3) conveniados com
-idade acima de 30 e até 60 anos pagam R$ 95; e 4) conveniados acima de 60 anos pagam R$130
-*/
+// Defina um valor fixo para o plano de saúde.
+let fixo = 100;
 
-let fixo = 100
-let total
+// Variável para armazenar o valor total do plano.
+let total;
+
+// Crie um objeto de formatação de número para formatar valores em moeda brasileira (BRL).
 let brl = new Intl.NumberFormat('pt-BR', {
     style: 'currency',
     currency: 'BRL'
-})
+});
 
+// Crie uma função chamada planoSaude que calcula o custo do plano com base na idade.
 planoSaude = (age) => {
     if (age <= 10) {
-        total = fixo + 80
+        total = fixo + 80;
     } else if (age > 10 && age <= 30) {
-        total = fixo + 50
+        total = fixo + 50;
     } else if (age > 30 && age <= 60) {
-        total = fixo + 95
+        total = fixo + 95;
     } else {
-        total = fixo + 130
+        total = fixo + 130;
     }
-    return `Total: ${brl.format(total)}.`
+    
+    // Formate o valor total em BRL e retorne uma string com o resultado.
+    return `Total: ${brl.format(total)}.`;
 }
 
-console.log(planoSaude(30))
+// Chame a função planoSaude com uma idade de exemplo (30) e imprima o resultado no console.
+console.log(planoSaude(30));
