@@ -10,7 +10,7 @@ Este é um repositório privado onde mantenho meus estudos pessoais em JavaScrip
 * [Fundamentos](https://github.com/marcos-m-medeiros/estudos-javascript/tree/main/fundamentos)
 * [Estruturas de Controle](https://github.com/marcos-m-medeiros/estudos-javascript/tree/main/controle)
 * [Função](https://github.com/marcos-m-medeiros/estudos-javascript/tree/main/funcao)
-* Objeto
+* [Objeto](https://github.com/marcos-m-medeiros/estudos-javascript/tree/main/objeto)
 * Array
 * [Exercícios](https://github.com/marcos-m-medeiros/estudos-javascript/tree/main/exercicios)
 
